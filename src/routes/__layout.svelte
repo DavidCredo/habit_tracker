@@ -4,7 +4,8 @@
 
 <nav>
     <ul>
-        <li><a href="#">Phases</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/Phases">Phases</a></li>
         <li>Habit Log</li>
     </ul>
     <ul>
