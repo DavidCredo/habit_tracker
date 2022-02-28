@@ -1,6 +1,6 @@
 <script>
     export let title = "some task";
-    export const isCompleted = false;
+    export const isCompleted = false; 
 </script>
 
 <article>

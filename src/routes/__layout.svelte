@@ -22,7 +22,7 @@
 
     li , a {
         color: var(--primary-inverse);
-        padding: 1.6em;
+        padding: 1em;
         font-weight: bold;
         text-transform: uppercase; 
     }
