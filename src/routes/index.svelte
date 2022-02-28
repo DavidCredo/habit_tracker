@@ -1,6 +1,6 @@
 <script>
-import TodoItem from "./TodoItem.svelte"
-import TodoList from "./TodoList.svelte";
+
+import HabitList from "../lib/HabitList.svelte";
 
     let name = "David"
     let currentPhase = "Phase 1"
@@ -9,7 +9,7 @@ import TodoList from "./TodoList.svelte";
 <main class="container">
 <h1>Welcome, {name}.</h1>
 <h2>{currentPhase}</h2>
-<TodoList/>
+<HabitList/>
 </main>
 
 <style>
