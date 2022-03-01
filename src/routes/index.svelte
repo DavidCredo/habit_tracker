@@ -1,6 +1,5 @@
 <script>
-
-import HabitList from "../lib/HabitList.svelte";
+import HabitList from "../lib/Components/HabitList.svelte";
 
     let name = "David"
     let currentPhase = "Phase 1"
