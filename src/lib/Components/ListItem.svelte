@@ -1,12 +1,12 @@
 <script>
     export let title = "some task";
-    export const isCompleted = false; 
 </script>
 
 <article>
-<span>{title}</span>
-<label for="task_done">
-<input type="checkbox" id="task_done" name="task_done"></label>
+    <span>{title}</span>
+    <label for="task_done">
+        <input type="checkbox" id="task_done" name="task_done">
+    </label>
 </article>
 
 <style>
