@@ -1,5 +1,5 @@
 <script>
-	import HabitList from '../lib/Components/HabitList.svelte';
+import Habits from "$lib/Components/Habits.svelte";
 
 	let name = 'David';
 	let currentPhase = 'Phase 1';
@@ -7,8 +7,8 @@
 
 <main class="container">
 	<h1>Welcome, {name}.</h1>
-	<h2>{currentPhase}</h2>
-	<HabitList />
+	<h2>{currentPhase}</h2>	
+	<Habits />
 </main>
 
 <style>
