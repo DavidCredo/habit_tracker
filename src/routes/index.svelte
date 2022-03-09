@@ -1,12 +1,13 @@
 <script>
 	import Habits from '$lib/Components/Habits.svelte';
-	let name = 'David';
-	let currentPhase = 'Phase 1';
+	import {getCurrentPhase} from '../utils/timeHandling.js';
+	let name = 'David';	
 </script>
 
 <main class="container">
 	<h1>Welcome, {name}.</h1>
-	<h2>{currentPhase}</h2>
+	{console.log(getCurrentPhase())}
+	<h2>{getCurrentPhase()}</h2>	
 	<Habits />
 </main>
 
