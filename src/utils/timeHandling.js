@@ -1,6 +1,6 @@
 import {DateTime} from "luxon";
 
-let wakeTime = DateTime.now().set({hour: 12, minute: 0, second: 0});
+let wakeTime = DateTime.now().set({hour: 6, minute: 0, second: 0});
 const currentTime = DateTime.now();
 
 export const getCurrentPhase = () => {

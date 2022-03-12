@@ -6,7 +6,6 @@
 
 <main class="container">
 	<h1>Welcome, {name}.</h1>
-	{console.log(getCurrentPhase())}
 	<h2>{getCurrentPhase()}</h2>	
 	<Habits />
 </main>
